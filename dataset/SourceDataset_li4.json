@@ -1,0 +1,21 @@
+{
+	"name": "SourceDataset_li4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageTestcha",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "azure-data-factory-by-example-main.zip",
+				"container": "test"
+			},
+			"compression": {
+				"type": "ZipDeflate"
+			}
+		}
+	}
+}
