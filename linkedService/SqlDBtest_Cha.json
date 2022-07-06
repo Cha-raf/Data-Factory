@@ -1,0 +1,12 @@
+{
+	"name": "SqlDBtest_Cha",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=serversql-test-cha.database.windows.net;initial catalog=SQLdbTestCha;user id=charaf_ait",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQENCMjI2N0VFLUY2QzgtNDdGNC1COEJCLUIzMjdEQjE1N0EwRl9lMTE3ZGMxYS1iYWM5LTRiNWQtYWMzZC1jNTc1ODk3YjAyYjYiDQp9"
+		}
+	}
+}
